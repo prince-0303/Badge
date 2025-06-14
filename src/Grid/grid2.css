@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,60px);
+    justify-content: center;
+    margin-top: 150px;
+    gap: 10px;
+    background-color: #db7676;
+}
+.cell{
+    height: 60px;
+}
+.cell.on{
+    color: aqua;
+}
+.cell.off{
+    color: antiquewhite;
+}
