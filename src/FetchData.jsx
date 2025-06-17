@@ -21,12 +21,14 @@
                 </tr>
             </thead>
             <tbody>
-                {state.slice(0,10).map((data) => (
-                    <tr key={data.id}>
-                        <td>{data.id}</td>
-                        <td>{data.title}</td>
-                    </tr>
-                ))}
+                {
+                  state.slice(0,10).map((item) =>(
+                    <tr key={item.id}>
+                       <td>{item.id}</td>
+                       <td>{item.title}</td>
+                        </tr>
+                  ))
+                }
             </tbody>
         </table>
      </div>
